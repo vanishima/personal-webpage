@@ -1,0 +1,53 @@
+.bg-img {
+  background-image: url(../images/lake.jpeg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  color: white;
+  overflow: auto;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+.card-body {
+  color: black;
+  text-align: center;
+}
+
+.my-name {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.descriptors {
+  font-size: 25px;
+}
+.highlight-txt {
+  color: #e0be36;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.icon {
+  max-width: 70px;
+  min-width: 40px;
+  filter: invert(100%);
+}
+
+.experience {
+  height: 40px;
+}
+
+img {
+  width: 50px;
+  justify-content: center;
+}

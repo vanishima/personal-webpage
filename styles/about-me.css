@@ -1,0 +1,85 @@
+nav {
+  background-color: #59999fc7;
+  background-size: cover;
+  max-width: 379px;
+}
+
+section {
+  margin-top: 25px;
+}
+
+h4 {
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: bolder;
+  color: #666565;
+}
+
+body {
+  background-color: #cc902f0f;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info-headers,
+.job-title {
+  text-align: center;
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container {
+  margin-left: 0;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  text-align: center;
+}
+
+#branding-photo {
+  border-radius: 25%;
+  width: 100%;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.accordion {
+  margin-top: 10%;
+}
+
+.icon img {
+  width: 40px;
+  margin-top: 10px;
+}
+
+#fixed-bar {
+  position: fixed;
+  top: 10%;
+  width: 25%;
+  height: 90%;
+  max-width: 408px;
+  left: 20px;
+  overflow: auto;
+}
+
+.progress-bar {
+  text-align: left;
+  text-indent: 5px;
+  background-color: #133bd99e;
+}
+.progress {
+  background-color: #c6c9cc;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #79797985;
+  color: #090808;
+}

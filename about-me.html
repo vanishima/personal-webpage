@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Daniel Lisko</title>
+
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/about-me.css" />
+  </head>
+  <div class="container">
+    <div class="row">
+      <nav class="col-4 pt-5">
+        <div id="fixed-bar">
+          <div>
+            <a href="./index.html"
+              ><img
+                class="d-flex justify-content-center"
+                src="/images/branding-me.jpeg"
+                id="branding-photo"
+                alt="Picture of Daniel Lisko."
+            /></a>
+          </div>
+          <h1 class="navbar-brand text-break">Daniel Lisko</h1>
+
+          <!-- Social Connections -->
+          <div class="row d-flex justify-content-center">
+            <a class="col-6 col-md-3 icon" href="#">
+              <img
+                src="../images/envelope-open-fill.svg"
+                alt="link for email"
+              />
+            </a>
+            <a
+              class="col-6 col-md-3 icon"
+              href="https://www.linkedin.com/in/daniel-lisko-74b20b4b/"
+              ><img src="../images/linkedin.svg" alt="Link to LinkedIn Page"
+            /></a>
+            <a class="col-6 col-md-3 icon" href="https://github.com/djlisko01">
+              <img src="../images/github.svg" alt="Link to GitHub" />
+            </a>
+            <a
+              class="col-6 col-md-3 icon"
+              href="https://twitter.com/lisko_daniel"
+            >
+              <img src="../images/twitter.svg" alt="Link to Twitter" />
+            </a>
+          </div>
+
+          <!-- Accordion tabs -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="about-heading">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse-about"
+                  aria-expanded="true"
+                  aria-controls="collapse-about"
+                >
+                  About Me
+                </button>
+              </h2>
+              <div
+                id="collapse-about"
+                class="accordion-collapse collapse"
+                aria-labelledby="about-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="about-me.html">Top of Page</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Skills
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="#skill-prgrming">Programming</a>
+                    </li>
+                    <li>
+                      <a href="#skill-research">Research</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Experience
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="#exp-prgrming">Programming</a>
+                    </li>
+                    <li>
+                      <a href="#exp-research">Research</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Education
+                </button>
+              </h2>
+
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="education.html">Education</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Body -->
+      <main class="col-8 about-page pt-5">
+        <div class="row">
+          <header>
+            <h1 class="info-headers" id="about-me">About Daniel Lisko</h1>
+          </header>
+        </div>
+        <section class="row pr-0">
+          <p class="col-12 pt-4">
+            Amet amet esse sed ad sunt officia anim nisi ad nostrud laborum esse
+            mollit tempor nostrud in sunt anim id sint laborum ea ut consequat
+            dolore aliqua et duis exercitation minim aliqua nisi excepteur amet
+            velit laboris adipisicing consequat ut occaecat dolor adipisicing
+            aute laborum ad sint culpa veniam sunt commodo aliqua dolore ut ad
+            veniam dolor proident aute eu ut adipisicing excepteur nostrud velit
+            consequat consectetur qui non tempor occaecat aute consectetur est
+            non aute ea excepteur sint velit pariatur tempor in enim
+            exercitation irure officia enim aliqua et mollit mollit ut laborum
+            est aliquip amet sint nisi incididunt veniam excepteur labore in et
+            tempor ea id in id est et in est do mollit nisi consectetur irure
+            adipisicing duis duis dolore ex elit qui id sunt eu veniam cupidatat
+            proident velit irure nostrud est.
+          </p>
+        </section>
+        <!-- Skills -->
+        <section id="skills">
+          <div class="row subs-topic">
+            <!-- Progress Bars: Programming -->
+            <div class="col-md-6">
+              <h3 class="info-headers programming-head" id="skill-prgrming">
+                Programming
+              </h3>
+              <!-- Progress Bars: Programming -->
+              <h4 class="progress-header">Python</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  75%
+                </div>
+              </div>
+              <h4 class="progress-header">Java</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 65%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  75%
+                </div>
+              </div>
+              <h4 class="progress-header">JavaScript</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 10%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  10%
+                </div>
+              </div>
+              <h4 class="progress-header">Databases</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 10%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  10%
+                </div>
+              </div>
+            </div>
+            <!-- Progress Bars: Research -->
+            <div class="col-md-6">
+              <h3 class="info-headers programming-head" id="skill-research">
+                Research
+              </h3>
+              <h4>Flow Cytometry</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  70%
+                </div>
+              </div>
+              <h4>Molecular Biology</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+              <h4>Microbiome Research</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+              <h4>T cell Biology</h4>
+              <div class="progress" style="height: 20px">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  60%
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Resume -->
+        <section id="exp">
+          <div class="row">
+            <h2 class="info-headers" id="exp-prgrming">
+              Programming Experience
+            </h2>
+
+            <div class="card-gp d-flex justify-content-center">
+              <div class="card col-3 m-3">
+                <div class="card-body">
+                  <p class="card-text">Load Black Jack on GitHub</p>
+                </div>
+              </div>
+              <div class="card col-3 m-3">
+                <div class="card-body">
+                  <p class="card-text">Some text</p>
+                </div>
+              </div>
+              <div class="card col-3 m-3">
+                <div class="card-body">
+                  <p class="card-text">Some text</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h2 class="info-headers" id="exp-research">Research Experience</h2>
+            <div class="col-md-6">
+              <h3 class="job-title">Research Associate II</h3>
+              <ul>
+                <li>
+                  <p>
+                    Processed clinical blood samples for identification and
+                    isolation of NeoE– Specific T cells, as part of product
+                    selection for adoptive cell therapy.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Routinely performed flow cytometry, RT – PCR, and generated
+                    DNA libraries for Next Generation Sequencing in a GMP
+                    laboratory setting.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Used Python programming to automate study reports, which are
+                    used for the product selection.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Analyzed data and wrote reports, proposing therapeutic
+                    candidates for the patients.
+                  </p>
+                </li>
+              </ul>
+
+              <h3 class="job-title">Graduate Research Assistant</h3>
+              <ul>
+                <li>
+                  <p>
+                    Performed in vitro and in vivo experiments to determine the
+                    regulatory capacity of Tr1 cells in inflammatory bowel
+                    disease (IBD) as potential therapeutic.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Utilized flow cytometry to characterize CD4+ T cells from
+                    IBD mice.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Provided bioinformatics analysis, using R, to investigate
+                    the relationship between microbiome and antiflagellin immune
+                    responses.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h3 class="job-title">Flowcytometery Core Graduate Assistant</h3>
+              <ul>
+                <li>
+                  <p>
+                    Quality control and maintenance of multiple flow cytometry
+                    machines.
+                  </p>
+                </li>
+                <li>
+                  <p>Aid in troubleshooting for flow cytometry core.</p>
+                </li>
+              </ul>
+
+              <h3 class="job-title">Research Associate</h3>
+              <ul>
+                <li>
+                  <p>
+                    Provided bioinformatics support for analysis of oral
+                    bacterial and fungal sequences from the Illumina MiSeq
+                    platform.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Designed primers and tested specificity by
+                    <em>in silico</em> PCR using R.
+                  </p>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-center">
+                <form
+                  action="https://scholar.google.com/citations?user=GZS5aegAAAAJ&hl=en"
+                  class="pub-link"
+                >
+                  <button type="submit">Publications</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</html>
