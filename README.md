@@ -30,9 +30,9 @@ To create a presonal webpage that displays my bio, work experience, and educatio
 
 # Screen Shots:
 
-![Homepage Image](images/webpage-screen-shot/homepage.png)
-![About Me Image](images/webpage-screen-shot/about-me.png)
-![Education Image](images/webpage-screen-shot/education.png)
+![Homepage Image](/images/webpage-screen-shots/homepage.png)
+![About Me Image](/images/webpage-screen-shots/about-me.png)
+![Education Image](/images/webpage-screen-shots/education.png)
 
 # How to download and run locally:
 
